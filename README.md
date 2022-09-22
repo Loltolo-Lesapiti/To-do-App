@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Todo List Application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This is a simple Todo list application. The app contains the functionalities for the user to Add a task, remove a task and mark the task as completed. The user can then remove the tasks that are marked as completed. The user can also be able to update a task by edittig.
 
-## Available Scripts
+## Built with
 
-In the project directory, you can run:
+- React
 
-### `npm start`
+## Additional Tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- WebHint
+- Stylelint
+- ESlint
+- Webpack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live demo
 
-### `npm test`
+You can watch [here]() a live demo of our project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Test
 
-### `npm run build`
+To track linter errors locally follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Download all the dependencies run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Track HTML linter errors run:
 
-### `npm run eject`
+```
+npx hint .
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Track CSS linter errors run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npx stylelint "**/*.{css,scss}"
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Track JavaScript linter errors run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npx eslint ."
+```
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Petro Loltolo Lesapiti**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@petrolesapiti](https://github.com/Loltolo-Lesapiti)
+- LinkedIn: [@petrolesapiti](https://www.linkedin.com/in/petrolesapitiloltolo/)
 
-### Code Splitting
+## Collaborators
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Getting Started
 
-### Making a Progressive Web App
+To get a local copy follow these simple steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Clone Your Github Repository**
+Follow these steps to clone your
+**Clone Your Github Repository**
+Follow these steps to clone my Github repo on Windows:
 
-### Advanced Configuration
+1. Open Git Bash;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- If Git is not already installed, it is super simple. Just go to the Git Download Folder and follow the instructions.
 
-### Deployment
+2. Go to the current directory where you want the cloned directory to be added;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- To do this, input cd and add your folder location. You can add the folder location by dragging the folder to Git bash.
+- $ cd '/c/Users/Documents/My Git Project'
 
-### `npm run build` fails to minify
+3. Go to the page of the repository that you want to clone.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Click on “Clone or download” and copy the URL.
+5. Use the git clone command along with the copied URL from earlier;
+
+- $ git clone https://github.com/Loltolo-Lesapiti/Todo-List.git
+
+6. Press Enter;
+
+- $ git clone https://github.com/Loltolo-Lesapiti/Todo-List.git
+  Cloning into Git …
+  remote: Counting objects: 13, done.
+  remote: Compressing objects: 100% (13/13), done.
+  remove: Total 13 (delta 1), reused 0 (delta 1)
+  Unpacking objects: 100% (13/13), done.
+  **Congratulations, you have created your first local clone from your remote Github repository.**
+
+  ## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page]().
+
+## Show your support
+
+Give a ⭐ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

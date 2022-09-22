@@ -1,24 +1,28 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+
 class InputTodo extends Component {
   state = {
-    title: "",
+    title: '',
   };
+
   onChange = (e) => {
     this.setState({
       [e.target.name]: e.target.value,
     });
   };
+
   HandleFormSubmit = (e) => {
     e.preventDefault();
     if (this.state.title.trim()) {
       this.props.addTaskProps(this.state.title);
       this.setState({
-        title: "",
+        title: '',
       });
     } else {
-      alert("Please write item");
+      alert('Please write item');
     }
   };
+
   render() {
     return (
       <form onSubmit={this.HandleFormSubmit} className="form-container">
